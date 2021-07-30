@@ -1,0 +1,7 @@
+name: Stats
+author: SSRL
+version: 1.0.0
+main: project.ssrl.Stats
+commands:
+  stats:
+  report:
