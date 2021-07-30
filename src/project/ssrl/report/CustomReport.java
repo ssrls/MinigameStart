@@ -20,7 +20,7 @@ public class CustomReport implements CommandExecutor {
                         if(x.hasPermission("report.see")) {
                             x.sendMessage("§b*-- §cNEW REPORT! §b*--");
                             x.sendMessage("§aThe player §f" + player.getName() + " §areported §f" + targetPlayer.getName());
-                            x.sendMessage("§aReason: " + ReportType.getType(args[1]).getMessage().replace("%player%", targetPlayer.getName()));
+                            x.sendMessage("§aReason: " + ReportType.getType(args[1]).getMessage());
                         }
                     });
                 } else player.sendMessage("§cPlayer not found");
